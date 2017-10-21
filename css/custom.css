@@ -1,0 +1,126 @@
+/* Sections */
+#about {
+    padding-top: 100px;
+    padding-bottom: 60px;
+    background-color: #565656; /*original #373737*/
+    background-image: url('/img/bmbackground2.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover" data-stellar-background-ratio="0.5"
+}
+#skills {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    background-color: #FF3B3F;
+}
+#education {
+    padding-top: 55px;
+    padding-bottom: 40px;
+    background-color:#F3F3F3;
+}
+#contact {
+    padding-top: 55px;
+    padding-bottom: 0px;
+    background-color: #FF3B3F;
+}
+#experience {
+    padding-top: 55px;
+    padding-bottom: 0px;
+    background-color: #f3f3f3;
+}
+#side_hustle {
+    padding-top: 60px;
+    padding-bottom: 0px;
+    background-color: #FFF;
+}
+
+
+/*Progress Bar*/
+.progress_bars .bars_list li .bar .progress {
+	background-image: none !important;
+}
+
+/* Skill progress bar */
+.progress_bars .bars_list li .bar {
+  background: rgba(0,0,0,.23);
+  -webkit-box-shadow: inset 0 0 2px 2px rgba(0,0,0,0.04);
+  box-shadow: inset 0 0 2px 2px rgba(0,0,0,0.04);
+}
+
+.progress_bars .bars_list li h6, .progress_bars .bars_list li h6 .label {
+  color: white;
+}
+
+.progress_bars .bars_list li .bar .progress {
+  background-color: #FFF;
+}
+
+/* Portfolio section*/
+
+#thumbnail {
+  width: 640px;
+  height: 500px;
+}
+
+/* Timeline & Post timeline */
+
+.timeline_items li h3:before, .timeline_items:after, .timeline .post-item:before {
+  border-color: #FF3B3F;
+  background-color: #FFF;
+}
+.timeline_items li h3 span {
+  background-color: #FF3B3F;
+  color: #FFF;
+  border-radius: 0px;
+  font-weight: bold;
+}
+.timeline_items li .desc {
+  background-image: none;
+}
+
+/*Timeline fix*/
+.timeline_items li .desc:before {
+    background-image: url('../css/images/stripes_3_b.png');
+}
+
+.hr_color {
+    background-color: #FF3B3F;
+}
+
+.title {
+    color:#e9e9e9;
+}
+.title_dark {
+    color: #2e2e2e;
+}
+.name {
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+.intro_jobtitle {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    color: #EDEDED;
+}
+.jobtitles {
+    background-color: #2e2e2e;
+    color: #F2F2F2;
+    display: inline-block;
+    margin: 0px auto;
+    padding: 15px;
+}
+
+/* Social */
+a.icon_bar_fcc span.b{background:darkgreen;color:#fff}
+a.icon_bar_github span.b{background:#24292e;color:#fff}
+
+/* Footer Section */
+#Footer {
+    background-color: #2e2e2e;
+}

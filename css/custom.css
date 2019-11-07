@@ -36,6 +36,74 @@
     background-color: #FFF;
 }
 
+/* Floating labels for contact form */
+input[type="text"], 
+input[type="email"], 
+textarea, 
+input::placeholder, 
+textarea::placeholder {
+  color: white;
+}
+input[type="text"], input[type="email"]{
+  font-size: 16px !important;
+  height: 56px;
+  border: 1px solid white !important;
+  border-radius: 7px !important;
+  background: #FF3B3F;
+  min-width: 280px;
+  box-sizing: border-box;
+  transition: all .3s linear;
+  font-weight: 400;
+}
+textarea {
+  font-size: 16px !important;
+  border: 1px solid white !important;
+  border-radius: 7px !important;
+  background: #FF3B3F;
+  transition: all .3s linear;
+}
+input:focus::placeholder, 
+textarea:focus::placeholder { 
+  color: #565656;
+}
+input[type="text"]:focus, 
+input[type="email"]:focus,
+textarea:focus {
+  color: #FF3B3F;
+}
+label {
+  font-size: 12.5px;
+  font-weight: 400px;
+  color: #000;
+  opacity: .8;
+  padding-left: 5px;
+} 
+.floating-label {
+  position: relative;
+  margin-bottom: 10px;
+}
+.floating-label label{
+  position: absolute;
+  top: calc(50% - 7px);
+  left: 0;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+.floating-label input:not(:placeholder-shown) + label {
+  transform: translateY(-20px);
+  padding-left: 5px;
+  opacity: 0.7;
+}
+input[type="submit"] {
+  font-size: 16px;
+  background: white;
+  color: #171717;
+}
+input[type="submit"]:hover {
+  background: #171717;
+  color: white;
+  transition: all 0.3s ease;
+}
 
 /*Progress Bar*/
 .progress_bars .bars_list li .bar .progress {

@@ -11,6 +11,8 @@ This is a customized beTheme [BeResume](http://be.beantownthemes.com/html/index-
 - [Chrome](https://www.google.com/chrome/browser/)
 - [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/)
 - [Formspree.io](https://formspree.io)
+- [Email address encodeder](http://ctrlq.org/encode/)
+- [SEO generator](https://megatags.co/#generate-tags)
 
 ## License
 [MIT](https://tldrlegal.com/license/mit-license#summary)

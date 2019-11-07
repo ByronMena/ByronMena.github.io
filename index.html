@@ -1,14 +1,7 @@
-<!-- TODO: ADD THESE TO PORTFOLIO
-  x  1. ADD FCC Portfolio
-  x  2. FCC: Build a Technical Documentation Page
-  x  3. FCC: Product Landing Page
-    4. FCC: Survey Form
--->
-<!-- TODO: UPDATE CONTENT
-   x 1. Intro
-   x 2. Experience Section - Remove Responsibilities Portion and update summary
-   x 3. Proofread/Correct grammar of contents
-   x 4. Add blog link in navigation for future blogging used for Affliate linking (Ninite.com, MacApps.link, iFixIt.com, Grammarly etc..)
+<!-- TODO:
+    1. Add Service Page
+    2. Add blog page for future blogging used for Affliate linking (Ninite.com, MacApps.link, iFixIt.com, Grammarly etc..)
+    3. Add colleagues/clients testimonials
 -->
 
 <!DOCTYPE html>
@@ -54,9 +47,9 @@
     <link rel="stylesheet" href='css/custom.css'>
 
     <!-- FONTS -->
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:100,300,400,400italic,700">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Patua+One:100,300,400,400italic,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,400italic,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Patua+One:100,300,400,400italic,700">
 
     <!-- Font Awesome -->
     <!-- <script src="https://use.fontawesome.com/38e6d76c66.js"></script> Obsolete -->
@@ -835,10 +828,10 @@
                                             </div>
                                             <!-- Social Media links -->
                                             <div class="flv_float_right">
-                                                <!-- <a href="https://www.freecodecamp.org/byronmena" class="icon_bar icon_bar_fcc icon_bar_small" target="_blank">
-                                                <span class="t"><i class="fa fa-free-code-camp"></i></span>
-                                                <span class="b"><i class="fa fa-free-code-camp"></i></span>
-                                              </a> -->
+                                                <a href="https://www.freecodecamp.org/byronmena" class="icon_bar icon_bar_fcc icon_bar_small" target="_blank">
+                                                <span class="t"><i class="fab fa-free-code-camp"></i></span>
+                                                <span class="b"><i class="fab fa-free-code-camp"></i></span>
+                                              </a>
                                                 <a href="https://github.com/ByronMena"
                                                     class="icon_bar icon_bar_github icon_bar_small" target="_blank">
                                                     <span class="t"><i class="fab fa-github-alt"></i></span>
@@ -859,23 +852,26 @@
                                                 <!-- Email Address encoded with http://ctrlq.org/encode/ -->
                                                 <form id="contactform" action="https://formspree.io/byronmena@live.com"
                                                     method="POST">
-                                                    <div class="column one-second">
+                                                    <div class="column one-second floating-label">
                                                         <input placeholder="Your name" type="text" name="name" id="name"
-                                                            size="40" aria-required="true" aria-invalid="false" />
+                                                            size="40" aria-required="true" aria-invalid="false" autocomplete="false" required />
+                                                        <label for="name">Name:</label>
                                                     </div>
-                                                    <div class="column one-second">
+                                                    <div class="column one-second floating-label">
                                                         <input placeholder="Your e-mail" type="email" name="email"
                                                             id="email" size="40" aria-required="true"
-                                                            aria-invalid="false" />
+                                                            aria-invalid="false" autocomplete="false" required />
+                                                        <label for="email">E-mail:</label>
                                                     </div>
-                                                    <div class="column one">
+                                                    <div class="column one floating-label">
                                                         <input placeholder="Subject" type="text" name="_subject"
-                                                            id="subject" size="40" aria-invalid="false" />
+                                                            id="subject" size="40" aria-invalid="false" autocomplete="false" />
+                                                        <label for="subject">Subject:</label>
                                                     </div>
                                                     <div class="column one">
                                                         <textarea placeholder="Message" name="body" id="body"
                                                             style="width:100%;" rows="10"
-                                                            aria-invalid="false"></textarea>
+                                                            aria-invalid="false" autocomplete="false" required></textarea>
                                                     </div>
                                                     <div class="column one">
                                                         <input type="text" name="_gotcha" style="display: none" />

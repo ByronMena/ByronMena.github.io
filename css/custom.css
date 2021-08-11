@@ -2,11 +2,10 @@
 @media only screen and (max-width: 767px) {
   #Wrapper {
     width: 360px;
-    }
+  }
   #about {
       background: none !important;
-      background-color: #2e2e2e !important; /* remove background image for mobile screen to make text readable */
-    }
+  }
 }
 
 /* Sections */
@@ -24,7 +23,8 @@
 #skills {
     padding-top: 50px;
     padding-bottom: 40px;
-    background-color: #FF3B3F;
+    /* background-color: #FF3B3F; */
+    background-color: #2e2e2e;
 }
 #education {
     padding-top: 55px;
@@ -34,7 +34,7 @@
 #contact {
     padding-top: 55px;
     padding-bottom: 0px;
-    background-color: #FF3B3F;
+    /* background-color: #FF3B3F; */
 }
 #experience {
     padding-top: 55px;
@@ -47,21 +47,25 @@
     background-color: #FFF;
 }
 
+/* Contact Form  */
+#skills, #contact{
+  background-color: #2e2e2e;
+}
+
+
 /* Floating labels for contact form */
 input[type="text"], 
 input[type="email"], 
 textarea, 
 input::placeholder, 
 textarea::placeholder {
-  color: white;
+  color: black;
 }
 input[type="text"], input[type="email"]{
   font-size: 16px !important;
   height: 56px;
   border: 1px solid white !important;
   border-radius: 7px !important;
-  background: #FF3B3F;
-  /* min-width: 280px; */
   box-sizing: border-box;
   transition: all .3s linear;
   font-weight: 400;
@@ -70,7 +74,6 @@ textarea {
   font-size: 16px !important;
   border: 1px solid white !important;
   border-radius: 7px !important;
-  background: #FF3B3F;
   transition: all .3s linear;
 }
 input:focus::placeholder, 

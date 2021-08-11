@@ -4,7 +4,8 @@
     width: 360px;
     }
   #about {
-      background: none; /* remove background image for mobile screen to make text readable */
+      background: none !important;
+      background-color: #2e2e2e !important; /* remove background image for mobile screen to make text readable */
     }
 }
 

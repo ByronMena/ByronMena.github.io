@@ -1,3 +1,13 @@
+/* wrapper */
+@media only screen and (max-width: 767px)
+#Wrapper {
+width: 360px;
+}
+@media only screen and (max-width: 767px)
+#about {
+  background-image: url(''); /* remove background image for mobile screen to make text readable */
+}
+
 /* Sections */
 #about {
     padding-top: 100px;
@@ -50,7 +60,7 @@ input[type="text"], input[type="email"]{
   border: 1px solid white !important;
   border-radius: 7px !important;
   background: #FF3B3F;
-  min-width: 280px;
+  /* min-width: 280px; */
   box-sizing: border-box;
   transition: all .3s linear;
   font-weight: 400;

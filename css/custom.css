@@ -3,22 +3,22 @@
   #Wrapper {
     width: 360px;
   }
-  #about {
+  /* #about {
       background: none #595959 !important;
-  }
+  } */
 }
 
 /* Sections */
 #about {
     padding-top: 100px;
     padding-bottom: 60px;
-    background-color: #565656; /*original #373737*/
-    background-image: url('/img/bmbackground2.png');
+    background-color: #000; /*original #373737*/
+    /* background-image: url('/img/bmbackground2.png');
     background-repeat: no-repeat;
     background-position: top right;
     background-attachment: fixed;
     background-size: cover;
-    -webkit-background-size: cover" data-stellar-background-ratio="0.5"
+    -webkit-background-size: cover" data-stellar-background-ratio="0.5"; */
 }
 #skills {
     padding-top: 50px;
